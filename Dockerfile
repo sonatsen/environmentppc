@@ -1,4 +1,8 @@
 FROM ppc64le/centos:7
 
-RUN sudo apt-get update && apt-get -y --force-yes install mpich  && apt-get clean
+# Perform updates
+RUN yum -y update; yum clean all
 
+# install packages
+RUN yum -y install gd gd-devel mpich mpich-devel mpich-autoload
+RUN yum clean all
