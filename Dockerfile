@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ppc64le/ubuntu:xenial
 MAINTAINER Nimbix, Inc.
 
 # Update SERIAL_NUMBER to force rebuild of all layers (don't use cached layers)
