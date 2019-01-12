@@ -24,4 +24,4 @@ EXPOSE 22
 EXPOSE 5901
 EXPOSE 443
 
-RUN apt-get update && apt-get -y install openmpi-bin libgd-dev
+RUN apt-get update && apt-get -y install openmpi-bin libopenmpi-dev libgd-dev
