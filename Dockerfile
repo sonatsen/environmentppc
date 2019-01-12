@@ -1,4 +1,4 @@
-FROM robers97/centos7ppc64le
+FROM ppc64le/centos:7
 #FROM ibmcom/centos-ppc64le:7
 
 # Perform updates
