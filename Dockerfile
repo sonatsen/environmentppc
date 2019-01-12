@@ -1,4 +1,5 @@
-FROM centos:7
+FROM robers97/centos7ppc64le
+MAINTAINER Nimbix, Inc.
 #FROM ibmcom/centos-ppc64le:7
 
 # Perform updates
